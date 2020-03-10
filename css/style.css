@@ -14,7 +14,7 @@
     width:100%;
     height:100%;
     overflow:visible;
-    background: #fff url('../img/preloader.gif') no-repeat center center;
+    background: url('../img/bg.jpg');
 }
 
 
@@ -513,12 +513,12 @@ padding-bottom: 0px;
 /* main image picture */
 
 .hero {
-	/* background: url('../img/header-bg.jpg') right bottom no-repeat; */
-	background-size: contain;
+	background: url('../img/bg.jpg') right bottom no-repeat;
+	background-size: cover;
 	padding:110px 0 100px 0;
 	/* margin-left: 200px; */
 	height:auto;
-	background-color: #FBFBFB;
+	/* background-color: #FBFBFB; */
 }
 
 .seemore {
